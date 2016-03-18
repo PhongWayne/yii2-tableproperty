@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\tableproperty;
+namespace wayne\tableproperty;
 
 class TableProperty extends \yii\base\Module
 {
-    public $controllerNamespace = 'app\modules\tableproperty\controllers';
+    public $controllerNamespace = 'wayne\tableproperty\controllers';
 
     public function init()
     {
