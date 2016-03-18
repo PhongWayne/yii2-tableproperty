@@ -1,0 +1,25 @@
+{
+    "name": "wayne/yii2-tableproperty",
+    "description": "Module Table-Property for TargetMedia B.V. CMS",
+    "type": "yii2-extension",
+    "license": "TargetMedia B.V.",
+    "authors": [
+        {
+            "name": "wayne",
+            "email": "wayne@vietnamcubator.com"
+        }
+    ],
+    "require": {
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-mpdf": "*",
+        "kartik-v/yii2-date-range": "*",
+        "kartik-v/yii2-editable": "*",
+        "kartik-v/yii2-sortable-input": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wayne\\tableproperty\\": "src/"
+        }
+    }
+}

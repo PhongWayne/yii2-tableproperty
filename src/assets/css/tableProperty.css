@@ -1,0 +1,20 @@
+.table-property-update .panel-heading,
+.table-property-index .panel-heading {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.table-property-index .panel-heading .summary {
+    color: #fff !important;
+}
+
+.table-property-update .panel-title,
+.table-property-index .panel-title {
+    color: #fff !important;
+}
+
+.table-property-update .update-table {
+    width: 240px;
+}
