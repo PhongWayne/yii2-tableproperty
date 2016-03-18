@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\tableproperty\models;
+namespace wayne\tableproperty\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\tableproperty\TableFieldValue;
+use wayne\tableproperty\TableFieldValue;
 
 /**
  * TableFieldValueSearch represents the model behind the search form about `app\models\TableFieldValue`.

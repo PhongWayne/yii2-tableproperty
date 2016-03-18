@@ -1,15 +1,15 @@
 <?php
 
-namespace app\modules\tableproperty\controllers;
+namespace wayne\tableproperty\controllers;
 
 use Yii;
-use app\modules\tableproperty\models\TableProperty;
-use app\modules\tableproperty\models\TablePropertySearch;
+use wayne\tableproperty\models\TableProperty;
+use wayne\tableproperty\models\TablePropertySearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use app\controllers\BackendController;
-use app\modules\tableproperty\models\TableFieldValue;
-use app\modules\tableproperty\models\TableFieldMsg;
+use wayne\tableproperty\models\TableFieldValue;
+use wayne\tableproperty\models\TableFieldMsg;
 
 /**
  * PropertyController implements the CRUD actions for TableProperty model.

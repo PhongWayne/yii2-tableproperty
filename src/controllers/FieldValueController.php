@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\tableproperty\controllers;
+namespace wayne\tableproperty\controllers;
 
 use Yii;
-use app\modules\tableproperty\models\TableFieldValue;
-use app\modules\tableproperty\models\TableFieldValueSearch;
+use wayne\tableproperty\models\TableFieldValue;
+use wayne\tableproperty\models\TableFieldValueSearch;
 use app\controllers\BackendController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use app\modules\tableproperty\models\TableFieldMsg;
+use wayne\tableproperty\models\TableFieldMsg;
 use app\models\Language;
 use yii\web\Response;
 /**

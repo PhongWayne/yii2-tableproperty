@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\tableproperty\models;
+namespace wayne\tableproperty\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\tableproperty\TableFieldMsg;
+use wayne\tableproperty\TableFieldMsg;
 
 /**
  * TableFieldMsgSearch represents the model behind the search form about `app\models\TableFieldMsg`.

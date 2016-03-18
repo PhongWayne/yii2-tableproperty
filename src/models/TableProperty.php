@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\tableproperty\models;
+namespace wayne\tableproperty\models;
 
 use Yii;
 use yii\helpers\Json;
