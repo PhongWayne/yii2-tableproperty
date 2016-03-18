@@ -3,7 +3,6 @@
     "description": "Module Table-Property for TargetMedia B.V. CMS",
     "type": "yii2-extension",
     "license": "TargetMedia B.V.",
-"minimum-stability" : "stable",
     "authors": [
         {
             "name": "wayne",
