@@ -1,6 +1,6 @@
 <?php
 
-namespace wayne\tableproperty\models;
+namespace targetmedia\tableproperty\models;
 
 use Yii;
 

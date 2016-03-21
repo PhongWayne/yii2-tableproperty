@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use kartik\grid\GridView as KartikGridView;
-use wayne\tableproperty\assets\TablePropertyAsset;
+use targetmedia\tableproperty\assets\TablePropertyAsset;
 
 TablePropertyAsset::register($this);
 /* @var $this yii\web\View */

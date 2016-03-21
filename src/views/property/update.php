@@ -1,12 +1,12 @@
 <?php
 use yii\helpers\Html;
-use wayne\tableproperty\assets\TablePropertyAsset;
+use targetmedia\tableproperty\assets\TablePropertyAsset;
 use kartik\sortinput\SortableInput;
 use yii\db\Expression;
 use yii\widgets\Pjax;
-use wayne\tableproperty\models\TableFieldMsg;
+use targetmedia\tableproperty\models\TableFieldMsg;
 use kartik\editable\Editable;
-use wayne\tableproperty\models\TableFieldValue;
+use targetmedia\tableproperty\models\TableFieldValue;
 
 TablePropertyAsset::register($this);
 /* @var $this yii\web\View */

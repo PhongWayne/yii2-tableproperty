@@ -1,6 +1,6 @@
 <?php
 
-namespace wayne\tableproperty\assets;
+namespace targetmedia\tableproperty\assets;
 
 use yii\web\AssetBundle;
 use Yii;

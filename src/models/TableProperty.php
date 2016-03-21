@@ -1,6 +1,6 @@
 <?php
 
-namespace wayne\tableproperty\models;
+namespace targetmedia\tableproperty\models;
 
 use Yii;
 use yii\helpers\Json;
@@ -92,11 +92,11 @@ class TableProperty extends \yii\db\ActiveRecord
 
     /**
      * Get all fields with array value inside
-     * 
+     *
      * @param string $tblName Table name
      * @param string $fldName Field name
      * @param string $lang    Language
-     * 
+     *
      * @return array
      */
     public static function getAllFieldValue($tblName, $fldName, $lang = TableFieldMsg::DEFAULT_LANGUAGE_CODE)
@@ -116,18 +116,18 @@ class TableProperty extends \yii\db\ActiveRecord
         }
         return $result;
     }
-    
+
     /**
      * Get one field. The function return an array value of field
-     * (id, code, is_default, meta, translation) base on [table_name] and [field_name] 
+     * (id, code, is_default, meta, translation) base on [table_name] and [field_name]
      * You can easily specify a value type by pass to $valType one of elements list above
-     * 
+     *
      * @param string $tblName Table name
      * @param string $fldName Field name
      * @param integer $fldId   Field id
      * @param string $valType Value type
      * @param string $lang Language
-     * 
+     *
      * @return array An array value of field
      */
     public static function getFieldValue($tblName, $fldName, $fldId, $valType = null, $lang = TableFieldMsg::DEFAULT_LANGUAGE_CODE)

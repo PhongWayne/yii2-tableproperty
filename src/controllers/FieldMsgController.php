@@ -1,10 +1,10 @@
 <?php
 
-namespace wayne\tableproperty\controllers;
+namespace targetmedia\tableproperty\controllers;
 
 use Yii;
-use wayne\tableproperty\models\TableFieldMsg;
-use wayne\tableproperty\models\TableFieldMsgSearch;
+use targetmedia\tableproperty\models\TableFieldMsg;
+use targetmedia\tableproperty\models\TableFieldMsgSearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use app\controllers\BackendController;

@@ -1,6 +1,6 @@
 <?php
 
-namespace wayne\tableproperty\models;
+namespace targetmedia\tableproperty\models;
 
 use Yii;
 
@@ -62,7 +62,7 @@ class TableFieldValue extends \yii\db\ActiveRecord
             'modified' => Yii::t('posys', 'Modified'),
         ];
     }
-    
+
     /**
      * @inheritdoc
      */

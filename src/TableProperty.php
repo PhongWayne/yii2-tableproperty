@@ -1,10 +1,10 @@
 <?php
 
-namespace wayne\tableproperty;
+namespace targetmedia\tableproperty;
 
 class TableProperty extends \yii\base\Module
 {
-    public $controllerNamespace = 'wayne\tableproperty\controllers';
+    public $controllerNamespace = 'targetmedia\tableproperty\controllers';
 
     public function init()
     {

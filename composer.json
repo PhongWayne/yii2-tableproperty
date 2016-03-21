@@ -1,5 +1,5 @@
 {
-    "name": "wayne/yii2-tableproperty",
+    "name": "targetmedia/yii2-tableproperty",
     "description": "Module Table-Property",
     "type": "yii2-extension",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wayne\\tableproperty\\": "src/"
+            "targetmedia\\tableproperty\\": "src/"
         }
     }
 }
