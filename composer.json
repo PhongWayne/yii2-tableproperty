@@ -9,6 +9,7 @@
             "email": "wayne@vietnamcubator.com"
         }
     ],
+    "suggests" : "Please use this command to install: sudo composer require "wayne/yii2-tableproperty":"@dev"",
     "require": {
         "kartik-v/yii2-grid": "@dev",
         "kartik-v/yii2-widgets": "*",
