@@ -1,8 +1,7 @@
 {
     "name": "wayne/yii2-tableproperty",
-    "description": "Module Table-Property for TargetMedia B.V. CMS",
+    "description": "Module Table-Property",
     "type": "yii2-extension",
-    "license": "TargetMedia B.V.",
     "authors": [
         {
             "name": "wayne",
